@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_demo/bloc/counter_bloc.dart';
-import 'package:flutter_demo/counter.dart';
+import 'package:flutter_demo/cubit/counter_cubit.dart';
+import 'package:flutter_demo/cubit/counter_state.dart';
+import 'package:flutter_demo/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -13,10 +16,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (_) => CounterBloc(),
-      child: const MaterialApp(
+      create: (context) => CounterCubit(CounterResetState()),
+      child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: CounterView(),
+        home: HomePage(),
       ),
     );
   }
