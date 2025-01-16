@@ -9,9 +9,9 @@
     },
     {
       "name": "bloc",
-      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/bloc-8.1.4",
+      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/bloc-9.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "boolean_selector",
@@ -69,9 +69,9 @@
     },
     {
       "name": "flutter_bloc",
-      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/flutter_bloc-8.1.6",
+      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/flutter_bloc-9.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
     },
     {
       "name": "flutter_lints",
@@ -90,6 +90,18 @@
       "rootUri": "file:///Users/macbook/development/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/http-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "leak_tracker",
@@ -266,6 +278,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "typed_data",
+      "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/typed_data-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/macbook/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -296,7 +314,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-01-14T05:59:30.631796Z",
+  "generated": "2025-01-14T08:49:25.547892Z",
   "generator": "pub",
   "generatorVersion": "3.5.4",
   "flutterRoot": "file:///Users/macbook/development/flutter",
